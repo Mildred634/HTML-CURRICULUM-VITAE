@@ -1,0 +1,112 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+}
+
+body{
+    background-color: #fff;
+}
+
+ul{
+    list-style: none;
+}
+main{
+    margin: 1rem;
+  display: grid;
+  grid-template-columns:33% 1fr;  
+  grid-gap: 1rem;
+  filter: drop-shadow(0 0 0.4rem black);
+}
+
+
+.personal,  .skills,    .languages{
+    padding: 1rem;
+    line-height: 1;
+} 
+.left, 
+.education
+ .experience{
+    background-color: white;
+}
+
+.left-image{
+    position: relative;
+}
+.left-image img{
+    width: 100%;
+    height: 100%;
+
+}
+.left-image <h2><h2>{
+    position: absolute;  
+    bottom: 0cm
+    .left: 1rem
+}
+
+progress{
+    width: 200px;
+    height: 15px;
+    accent-color: blue;
+}
+
+.current{
+    background-color: green;
+    color: #fff;
+    padding: 0.1rem;
+    border-radius: 3px;
+
+}
+    .right{
+      background-color: #fff;
+    }
+
+
+.experience{
+    line-height: 2;
+    border-radius: 3;
+    padding: 2rem;
+
+}
+
+.experience ul{
+    margin: 2rem 0;
+
+
+}
+
+.date{
+    color: green;
+}
+
+.education{
+    margin-top: 4rem;
+}
+.education ul{
+    margin: 2rem 0;
+}
+
+.education{
+    font-size: 2rem;
+}
+
+.education{
+    line-height: 2;
+    border-radius: 3;
+    padding: 2rem;
+    
+}
+i{
+    color:green;
+}
+
+footer{
+    background-color: black;
+    padding: 2rem 0;
+    text-align: center;
+    line-height: 1.5;
+    color: gold;
+}
